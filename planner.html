@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An interactive academic planner to add, complete and delete study tasks.">
+  <title>Planner | Babatomiwa Fabuluje</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">B. Fabuluje</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html" class="active">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="pattern-bar"></div>
+
+  <main class="container">
+
+    <section class="section" style="padding-bottom:0;">
+      <h1 class="section-title">Academic Planner</h1>
+      <p>Plan your study tasks, assignments and deadlines. Add a task, tick it off when it is done, or delete it. Your tasks are saved in this browser.</p>
+    </section>
+
+    <section class="section">
+      <div class="planner-box">
+
+        <form id="task-form" class="task-form" novalidate>
+          <label for="task-input" class="sr-only">Task</label>
+          <input type="text" id="task-input" placeholder="e.g. Finish CSC 106 assignment" autocomplete="off">
+
+          <label for="task-date" class="sr-only">Due date</label>
+          <input type="date" id="task-date">
+
+          <button type="submit" class="btn">Add task</button>
+        </form>
+
+        <p id="task-error" class="error-msg" aria-live="polite"></p>
+
+        <ul id="task-list"></ul>
+
+        <p id="task-count" class="task-count"></p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Babatomiwa Fabuluje | Computer Science, MIVA</p>
+      <p><a href="mailto:b.fabuluje9684@miva.edu.ng">b.fabuluje9684@miva.edu.ng</a></p>
+    </div>
+  </footer>
+
+  <script src="js/planner.js"></script>
+</body>
+</html>

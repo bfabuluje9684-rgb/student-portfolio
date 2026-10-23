@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#4f1717"/>
+  <path d="M0 60 L50 20 L100 60 L150 20 L200 60 L250 20 L300 60 L350 20 L400 60" fill="none" stroke="#f09a1a" stroke-width="8"/>
+  <path d="M0 200 L50 160 L100 200 L150 160 L200 200 L250 160 L300 200 L350 160 L400 200" fill="none" stroke="#f4e8d0" stroke-width="8"/>
+  <text x="200" y="125" font-family="Georgia, serif" font-size="30" fill="#f4e8d0" text-anchor="middle">CSV Data Cleaner</text>
+  <text x="200" y="238" font-family="Arial, sans-serif" font-size="13" fill="#f09a1a" text-anchor="middle">Screenshot placeholder</text>
+</svg>
